@@ -1,5 +1,7 @@
 var canvasElement = document.getElementById("drawingCanvas");
 var canvas = canvasElement === null || canvasElement === void 0 ? void 0 : canvasElement.getContext("2d");
+var fillColour = { r: 0, g: 0, b: 0, a: 255 };
+var strokeColour = { r: 0, g: 0, b: 0, a: 255 };
 function line(x1, y1, x2, y2) {
     canvas.moveTo(x1, y1);
     canvas.lineTo(x2, y2);
