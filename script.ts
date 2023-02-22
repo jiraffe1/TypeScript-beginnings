@@ -1,3 +1,4 @@
+
 const canvasElement : any = document.getElementById("drawingCanvas");
 const canvas = canvasElement?.getContext("2d");
 let fillColour : Colour = {r : 0, g : 0, b : 0, a : 255};
